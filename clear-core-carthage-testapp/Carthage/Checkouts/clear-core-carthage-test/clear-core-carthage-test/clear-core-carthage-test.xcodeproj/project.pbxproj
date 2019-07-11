@@ -10,6 +10,13 @@
 		DA24037622D782F100A2C3F9 /* clear_core_carthage_test.h in Headers */ = {isa = PBXBuildFile; fileRef = DA24037422D782F100A2C3F9 /* clear_core_carthage_test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA24037D22D7836F00A2C3F9 /* Clearcore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA24037C22D7836F00A2C3F9 /* Clearcore.swift */; };
 		DA24037F22D7838600A2C3F9 /* JailbreakDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA24037E22D7838600A2C3F9 /* JailbreakDetection.swift */; };
+		DA2403C922D7AD3800A2C3F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2403C822D7AD3800A2C3F9 /* AppDelegate.swift */; };
+		DA2403CB22D7AD3800A2C3F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2403CA22D7AD3800A2C3F9 /* ViewController.swift */; };
+		DA2403CE22D7AD3800A2C3F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2403CC22D7AD3800A2C3F9 /* Main.storyboard */; };
+		DA2403D022D7AD3900A2C3F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2403CF22D7AD3900A2C3F9 /* Assets.xcassets */; };
+		DA2403D322D7AD3900A2C3F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2403D122D7AD3900A2C3F9 /* LaunchScreen.storyboard */; };
+		DA2403DB22D7ADA600A2C3F9 /* testTargetFile1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2403DA22D7ADA600A2C3F9 /* testTargetFile1.swift */; };
+		DA2403DD22D7AFDE00A2C3F9 /* testTargetFile2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2403DC22D7AFDE00A2C3F9 /* testTargetFile2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,10 +25,26 @@
 		DA24037522D782F100A2C3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA24037C22D7836F00A2C3F9 /* Clearcore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clearcore.swift; sourceTree = "<group>"; };
 		DA24037E22D7838600A2C3F9 /* JailbreakDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailbreakDetection.swift; sourceTree = "<group>"; };
+		DA2403C622D7AD3800A2C3F9 /* testTarget1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTarget1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2403C822D7AD3800A2C3F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA2403CA22D7AD3800A2C3F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA2403CD22D7AD3800A2C3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA2403CF22D7AD3900A2C3F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA2403D222D7AD3900A2C3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA2403D422D7AD3900A2C3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2403DA22D7ADA600A2C3F9 /* testTargetFile1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTargetFile1.swift; sourceTree = "<group>"; };
+		DA2403DC22D7AFDE00A2C3F9 /* testTargetFile2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTargetFile2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DA24036E22D782F100A2C3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2403C322D7AD3800A2C3F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				DA24037322D782F100A2C3F9 /* clear-core-carthage-test */,
+				DA2403C722D7AD3800A2C3F9 /* testTarget1 */,
 				DA24037222D782F100A2C3F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				DA24037122D782F100A2C3F9 /* clear_core_carthage_test.framework */,
+				DA2403C622D7AD3800A2C3F9 /* testTarget1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +81,21 @@
 				DA24037E22D7838600A2C3F9 /* JailbreakDetection.swift */,
 			);
 			path = "clear-core-carthage-test";
+			sourceTree = "<group>";
+		};
+		DA2403C722D7AD3800A2C3F9 /* testTarget1 */ = {
+			isa = PBXGroup;
+			children = (
+				DA2403C822D7AD3800A2C3F9 /* AppDelegate.swift */,
+				DA2403CA22D7AD3800A2C3F9 /* ViewController.swift */,
+				DA2403DA22D7ADA600A2C3F9 /* testTargetFile1.swift */,
+				DA2403DC22D7AFDE00A2C3F9 /* testTargetFile2.swift */,
+				DA2403CC22D7AD3800A2C3F9 /* Main.storyboard */,
+				DA2403CF22D7AD3900A2C3F9 /* Assets.xcassets */,
+				DA2403D122D7AD3900A2C3F9 /* LaunchScreen.storyboard */,
+				DA2403D422D7AD3900A2C3F9 /* Info.plist */,
+			);
+			path = testTarget1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,18 +130,39 @@
 			productReference = DA24037122D782F100A2C3F9 /* clear_core_carthage_test.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		DA2403C522D7AD3800A2C3F9 /* testTarget1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2403D722D7AD3900A2C3F9 /* Build configuration list for PBXNativeTarget "testTarget1" */;
+			buildPhases = (
+				DA2403C222D7AD3800A2C3F9 /* Sources */,
+				DA2403C322D7AD3800A2C3F9 /* Frameworks */,
+				DA2403C422D7AD3800A2C3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testTarget1;
+			productName = testTarget1;
+			productReference = DA2403C622D7AD3800A2C3F9 /* testTarget1.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		DA24036822D782F100A2C3F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Clearbridge Mobile Inc.";
 				TargetAttributes = {
 					DA24037022D782F100A2C3F9 = {
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
+					};
+					DA2403C522D7AD3800A2C3F9 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
@@ -111,6 +172,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DA24036722D782F100A2C3F9;
 			productRefGroup = DA24037222D782F100A2C3F9 /* Products */;
@@ -118,6 +180,7 @@
 			projectRoot = "";
 			targets = (
 				DA24037022D782F100A2C3F9 /* clear-core-carthage-test */,
+				DA2403C522D7AD3800A2C3F9 /* testTarget1 */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +190,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2403C422D7AD3800A2C3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2403D322D7AD3900A2C3F9 /* LaunchScreen.storyboard in Resources */,
+				DA2403D022D7AD3900A2C3F9 /* Assets.xcassets in Resources */,
+				DA2403CE22D7AD3800A2C3F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +215,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA2403C222D7AD3800A2C3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2403DB22D7ADA600A2C3F9 /* testTargetFile1.swift in Sources */,
+				DA2403DD22D7AFDE00A2C3F9 /* testTargetFile2.swift in Sources */,
+				DA2403CB22D7AD3800A2C3F9 /* ViewController.swift in Sources */,
+				DA2403C922D7AD3800A2C3F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA2403CC22D7AD3800A2C3F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2403CD22D7AD3800A2C3F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA2403D122D7AD3900A2C3F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2403D222D7AD3900A2C3F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DA24037722D782F100A2C3F9 /* Debug */ = {
@@ -322,6 +425,42 @@
 			};
 			name = Release;
 		};
+		DA2403D522D7AD3900A2C3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTY4394599;
+				INFOPLIST_FILE = testTarget1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearbridge.testTarget1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA2403D622D7AD3900A2C3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UTY4394599;
+				INFOPLIST_FILE = testTarget1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearbridge.testTarget1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +478,15 @@
 			buildConfigurations = (
 				DA24037A22D782F100A2C3F9 /* Debug */,
 				DA24037B22D782F100A2C3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2403D722D7AD3900A2C3F9 /* Build configuration list for PBXNativeTarget "testTarget1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2403D522D7AD3900A2C3F9 /* Debug */,
+				DA2403D622D7AD3900A2C3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 {
-  "commitish" : "0.1.0",
+  "commitish" : "0.2.1",
   "iOS" : [
     {
       "name" : "clear_core_carthage_test",
-      "hash" : "86b1ca51517956507f864911d4fd9ac7bebcc876719d071135b0fe4d364ecc92",
+      "hash" : "86a71c932b8efdc509cd579efa760df832c9987177bc2427c926d86027bce7f8",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
