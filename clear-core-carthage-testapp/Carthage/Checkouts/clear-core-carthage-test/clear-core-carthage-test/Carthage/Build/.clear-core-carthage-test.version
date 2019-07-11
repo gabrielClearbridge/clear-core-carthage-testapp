@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "a041e16ea7c4f024e91d26665bbf3aec9968691e",
+  "iOS" : [
+    {
+      "name" : "clear_core_carthage_test",
+      "hash" : "f056bad1f6e7b93ed35029374a036b4d2c326c39437f58ac746bb79910ad63f0",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

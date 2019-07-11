@@ -1,0 +1,11 @@
+framework module clear_core_carthage_test {
+  umbrella header "clear_core_carthage_test.h"
+
+  export *
+  module * { export * }
+}
+
+module clear_core_carthage_test.Swift {
+    header "clear_core_carthage_test-Swift.h"
+    requires objc
+}

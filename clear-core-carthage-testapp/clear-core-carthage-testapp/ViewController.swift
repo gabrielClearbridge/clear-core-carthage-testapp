@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import clear_core_carthage_test
 
 class ViewController: UIViewController {
 
+    var jailbreakDetection = JailbreakDetection()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        if jailbreakDetection.isJailbreakDetected() {
+            print("Jailbreak detected")
+        }
     }
 
 
